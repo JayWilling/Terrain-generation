@@ -21,12 +21,13 @@ The following list comprises a general layout of the goals of the project, in-li
 
 - [ ] Generate noise
   - [x] Generate 2D black and white texture
-  - [ ] Implement lacunarity and persistence
-  - [ ] Implement octaves
-  - [ ] Add colour regions to the noise
+  - [x] Implement lacunarity and persistence
+  - [x] Implement octaves
+  - [x] Add colour regions to the noise
   - [ ] Add falloff map
 - [ ] Display texture
   - [x] Add editor functions to change parameters
+  - [x] Add ability to display either noise map or colour map
 - [ ] Generate mesh
   - [ ] Use noise map as height map
   - [ ] Level of Detail (LoD) function
