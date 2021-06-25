@@ -12,12 +12,12 @@ public class NewBehaviourScript : Editor
         // If any value is changed in the inspector..
         if (DrawDefaultInspector()) {
             if (mapGen.autoUpdate) {
-                mapGen.GenerateMap();
+                mapGen.DrawMapInEditor();
             }
         }
 
         if (GUILayout.Button("Generate")) {
-            mapGen.GenerateMap();
+            mapGen.DrawMapInEditor();
         }
     }
 }
